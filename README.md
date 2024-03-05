@@ -3,9 +3,6 @@
 
   <h3 align="center">Materials Project-PubChem Chemistry API</h3>
 
-  <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-  </p>
 </div>
 
 
