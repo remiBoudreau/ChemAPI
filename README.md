@@ -141,7 +141,7 @@ Retrieve comprehensive chemical data for multiple IDs.
 GET /data/mp-123456,mp-789012
 ```
 
-### GET /data/CSV/{ids}
+### GET /data/csv/{ids}
 
 Write comprehensive chemical data for multiple IDs to csv.
 
