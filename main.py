@@ -211,6 +211,19 @@ async def get_comprehensive_data(ids: str):
 
     return chem_dict
 
+@app.get("/data/csv/{ids}")
+async def get_comprehensive_data_csv(ids: str):
+    """
+    Retrieve comprehensive chemical data for multiple IDs and save to a CSV file.
+    """
+    chem_dict = await get_comprehensive_data(ids)
+    filename = "chemical_data.csv"
+    with open(filename, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(chem_dict.keys())
+        writer.writerows(zip(*chem_dict.values()))
+    return filename
+
 @app.get("/help")
 async def help():
     """
