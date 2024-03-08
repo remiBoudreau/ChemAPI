@@ -87,8 +87,6 @@ To start the API server in development mode, use the uvicorn package:
 uvicorn main:app --reload
 ```
 
-To create a README.md file with information on the usage of the API, you can provide instructions on how to interact with each endpoint and include some usage examples. Here's a suggested README.md content:
-
 ## Endpoints
 
 ### GET /mpID/{ids}

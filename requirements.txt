@@ -3,3 +3,4 @@ uvicorn
 gunicorn
 requests
 bs4
+mp-api
