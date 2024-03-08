@@ -146,7 +146,7 @@ Write comprehensive chemical data for multiple IDs to csv.
 #### Example:
 
 ```bash
-GET /data/CSV/mp-123456,mp-789012
+GET /data/csv/mp-123456,mp-789012
 ```
 
 Note that some of the endpoints the API calls from within its funcitons do not have the capabilities to handle a great deal of traffic, so try not to send too many requests at once.
